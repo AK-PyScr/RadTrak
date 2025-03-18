@@ -71,8 +71,8 @@ export default function M() {
       <header>
         <h2>RadTrak</h2>
         <div className="header-nav">
-          <img className="change-theme" src="/icon/dark-theme.svg" alt="change-theme" />
-          <img className="settings" src="/icon/settings-black.svg" alt="settings" />
+          <img className="change-theme" src="/RadTrak/icon/dark-theme.svg" alt="change-theme" />
+          <img className="settings" src="/RadTrak/icon/settings-black.svg" alt="settings" />
         </div>
       </header>
 
@@ -97,17 +97,17 @@ export default function M() {
         <div className="mode-container">
           <div className="nav-mode">
             <div className="mode">
-              <img src="/icon/radioactive.svg" alt="radioactive" />
+              <img src="/RadTrak/icon/radioactive.svg" alt="radioactive" />
               <p>Radiation</p>
 
             </div>
             <div className="mode">
-              <img src="/icon/temperature.svg" alt="temperature" />
+              <img src="/RadTrak/icon/temperature.svg" alt="temperature" />
               <p>Temperature</p>
 
             </div>
             <div className="mode">
-              <img src="/icon/wind.svg" alt="pressure" />
+              <img src="/RadTrak/icon/wind.svg" alt="pressure" />
               <p>Pressure</p>
 
             </div>
@@ -121,19 +121,19 @@ export default function M() {
               <li>
                 <img
                   className="nav-icon"
-                  src="/icon/graph-black.svg"
+                  src="/RadTrak/icon/graph-black.svg"
                   alt="Graph icon"
                 />
                 <Link to="/">Analytics</Link>
               </li>
               <li>
-                <img className="nav-icon" src="/icon/map.svg" alt="Map icon" />
+                <img className="nav-icon" src="/RadTrak/icon/map.svg" alt="Map icon" />
                 <Link to="/">Map</Link>
               </li>
               <li>
                 <img
                   className="nav-icon"
-                  src="/icon/notifications.svg"
+                  src="/RadTrak/icon/notifications.svg"
                   alt="Alerts"
                 />
                 <Link to="/">Alerts</Link>
@@ -141,7 +141,7 @@ export default function M() {
               <li>
                 <img
                   className="nav-icon"
-                  src="/icon/user.svg"
+                  src="/RadTrak/icon/user.svg"
                   alt="user icon"
                 />
                 <Link to="/">Profile</Link>

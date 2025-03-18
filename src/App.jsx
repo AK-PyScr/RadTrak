@@ -8,7 +8,7 @@ export default function App() {
     <div>
 
     <Routes>
-      <Route path="/" element={<M />}/>
+      <Route path="/RadTrak" element={<M />}/>
     </Routes>
     </div>
   )  
